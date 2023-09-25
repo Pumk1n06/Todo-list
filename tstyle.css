@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(mem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.task{
+    background-color: pink;
+    border: 1px solid purple;
+    padding: 10px 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px ;
+    display: flex;
+}
+
+input{
+    font-size: 12px;
+    padding: 5px;
+    color: palevioletred;
+    margin-right: 10px;
+}
+
+#add-task{
+    color: purple;
+    background-color: lightpink;
+}
+
+#add-task:hover{
+    background-color: palevioletred;
+}
+
+.task{
+    display: flex;
+    padding: 5px;
+    color: white;
+    justify-content: space-between;
+}
+
+.delete-button{
+    padding: 10px;
+}
